@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "ae7e1700-a406-4946-9eb9-224ce6e4e186",
+		"name": "GetPoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getPoint",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/getPoints",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getPoints"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
