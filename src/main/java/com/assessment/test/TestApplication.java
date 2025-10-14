@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Application Started");
+		System.out.println("Application Started......");
 		SpringApplication.run(TestApplication.class, args);
-		System.out.println("Application Stopped");
+		System.out.println("Application Stopped.....");
 	}
 
 }
